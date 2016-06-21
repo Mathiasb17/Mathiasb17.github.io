@@ -4,8 +4,8 @@ title: "Bromat"
 title2: ""
 description: "Computer Graphics, Physics based animation, etc."
 keywords: "Programming, Computer Graphics, Fluid Simulation"
-url: null#http://mathiasb17.github.io # site url
-baseurl: http://mathiasb17.github.io # apply repo name if use it under gh-pages branch
+url: mathiasb17.github.io # site url
+baseurl: null #http://mathiasb17.github.io # apply repo name if use it under gh-pages branch
 # baseurl: null # apply null if repo name is something like username.github.io
 
 google_analytics: UA-XXXXX-XX
