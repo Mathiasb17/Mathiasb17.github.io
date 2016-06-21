@@ -4,15 +4,15 @@
     <div class="container">
       <h3><i class="icon icon-comments-o"></i> Comments</h3>
       <script src="https://apis.google.com/js/plusone.js"></script>
-      <div id="comments"></div>
-      <script>
-      gapi.comments.render('comments', {
-          href: window.location,
-          width: '624',
-          first_party_property: 'BLOGGER',
-          view_type: 'FILTERED_POSTMOD'
-      });
-      </script>
+        <div id="g-comments"></div>
+        <script>
+        gapi.comments.render('g-comments', {
+            href: window.location,
+            width: '624',
+            first_party_property: 'BLOGGER',
+            view_type: 'FILTERED_POSTMOD'
+        });
+        </script>
     </div>
   </aside>
 {% endif %}
