@@ -35,7 +35,7 @@ for something better.
 
 ![fish_shell](/images/fish_shell.png)
 
-I switched to shell this week. A lot of features of zsh requiring oh-my-zsh work natively in fish, plus very sweet ones like :
+I switched to fish this week. A lot of features of zsh requiring oh-my-zsh work natively in fish, plus very sweet ones like :
 
 * syntax hilightning
 * paginated completion
