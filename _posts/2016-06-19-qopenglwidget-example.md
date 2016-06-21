@@ -2,7 +2,7 @@
 layout: post
 title: "QopenGLWidget Example"
 comments: true
-description: "Markdown Cheatsheet Demo..."
+description: "Qt openGL simple example"
 keywords: "qopenglwidget, Qt 5.6, openGL"
 ---
 
