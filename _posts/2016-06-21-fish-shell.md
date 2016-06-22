@@ -6,12 +6,12 @@ description: "fish, a very cool shell !"
 keywords: "Bash, Zsh, Fish, oh-my-zsh, oh-my-fish, shell, terminal"
 ---
 
-### Bash
+#### Bash
 
 When i started using linux (circa 2006) i was using the default shell, bash. It works pretty fine but 
 seriously lacks of ease of use (completion, syntax highlighting, hints and so on).
 
-### Zsh and oh-my-zsh
+#### Zsh and oh-my-zsh
 
 Three years ago i discovered Zsh. It has some great features bash doesn't have such as a way better completion and the ability of 
 completion based on jokers, for example :
@@ -31,7 +31,7 @@ Also, the ability to add plug-ins (keyboard movements for completion, git state 
 However i found that zsh (especially when used with oh-my-zsh) was pretty laggy and slow. This conducted me to recently look 
 for something better.
 
-### Fish
+#### Fish
 
 ![fish_shell](/images/fish_shell.png)
 
