@@ -48,4 +48,6 @@ Besides, i find it way faster than zsh.
 
 The package manager, oh-my-fish (pretty much like pip for python or apt-get) enables you to install a wide variety of plug-ins and themes.
 
+More information on [fishshell.com](https://fishshell.com/) and [oh-my-fish page](https://github.com/oh-my-fish/oh-my-fish)
+
 This is my favorite shell so far and i highly recommend it to you ! :^)
