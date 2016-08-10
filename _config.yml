@@ -3,14 +3,14 @@
 title: "Bromat"
 title2: ""
 description: "Computer Graphics, Physics based animation, etc."
-keywords: "Programming, Computer Graphics, Fluid Simulation"
+keywords: "Mathias Brousset, Programming, Computer Graphics, Fluid Simulation"
 url: mathiasb17.github.io # site url
 baseurl: null # apply repo name if use it under gh-pages branch
 # baseurl: null # apply null if repo name is something like username.github.io
 
-google_analytics: UA-XXXXX-XX
+#google_analytics: UA-XXXXX-XX
 repo: http://github.com/mathiasb17/mathiasb17.github.io
-disqus_shortname: "Mathiasb17"
+#disqus_shortname: "Mathiasb17"
 #twitter_username: "HeiswayiNrird"
 comments: true
 
