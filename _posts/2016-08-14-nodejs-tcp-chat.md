@@ -6,7 +6,7 @@ description: "Implementation of a simple chatroom with node's TCP module"
 keywords: "node, javascript, tcp"
 ---
 
-Being (at least) a bit behind the times, i just got curious about Nodejs a gave it a try. I was really impressed on how 
+Being (at least) a bit behind the times, i just got curious about Nodejs and gave it a try. I was really impressed on how 
 simple it is to deploy a http server or to establish a tcp/udp connection for example.
 
 ![nodejs_logo](/images/nodejs.png)
