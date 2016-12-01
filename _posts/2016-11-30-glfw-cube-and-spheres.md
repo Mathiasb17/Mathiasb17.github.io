@@ -2,8 +2,8 @@
 layout: post
 title: "GLFW Cube and Spheres"
 comments: true
-description: "Display simple primites with Opengl 4 to simulate fluid"
-keywords: "OpenGL 4, GLFW3, Cube, Spheres, Rendering, Simulation"
+description: "Display simple primitives with Opengl 4 to simulate fluid"
+keywords: "OpenGL4, GLFW3, Cube, Spheres, Rendering, Simulation"
 ---
 
 I'm currently writing a CPU-Parallelized particled based fluid solver (SPH and derivatives).
