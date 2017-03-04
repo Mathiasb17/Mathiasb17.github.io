@@ -13,7 +13,7 @@ First i was using git with [my associated github repo](https://github.com/Mathia
 for this kind of task, and i ended up with a mess accidentally (*.git/* in my *$HOME* and this kind of garbage). An horror to maintain
 correctly.
 
-Then a friend told me about [vcsh](https://github.com/RichiH/vcsh) so i gave it a try. It is kind of an extension of git to manage your *$HOME*.
+Then a friend told me about [vcsh](https://github.com/RichiH/vcsh) so i gave it a try. It is kind of an extension of git to manage your ```$HOME```.
 
 It avoids the problems mentioned earlier and does its own work without me worrying, in *$HOME/.config/*.
 
