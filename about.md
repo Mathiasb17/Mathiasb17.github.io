@@ -14,4 +14,6 @@ I also love spending time solving programming challenges, here is my [Project-Eu
 
 Here is my resume (as of February 2017) in [French](/files/CV_Francais.pdf) or in [English](/files/CV_English.pdf) 
 
-![splash](/images/splash.png)
+<p align="center">
+<img src="/images/splash.png" alt="splash" />
+</p>
