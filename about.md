@@ -6,6 +6,8 @@ permalink: /about/
 
 I'm a Ph.D. student in computer graphics and fluid simulation. On this website, i will publish materials about my research field, programming tricks, etc.
 
+On my [github profile](https://github.com/Mathiasb17), you can find some projects and other stuff i like to develop on my free time.
+
 I also love spending time solving programming challenges, here is my [Project-Euler](https://projecteuler.net) profile :
 
 ![project-euler](https://projecteuler.net/profile/Muska17.png)
