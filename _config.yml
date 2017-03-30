@@ -4,8 +4,8 @@ title: "Bromat"
 title2: ""
 description: "Computer Graphics, Physics based animation, etc."
 keywords: "Mathias, Brousset, Mathias Brousset, Programming, Computer Graphics, Fluid Simulation, XLim, LIGUM, Universite de Poitiers, Page Personnelle de Mathias Brousset"
-url: mathiasb17.github.io # site url
-baseurl: null # apply repo name if use it under gh-pages branch
+url: http://mathiasb17.github.io # site url
+baseurl: "" # apply repo name if use it under gh-pages branch
 # baseurl: null # apply null if repo name is something like username.github.io
 
 #google_analytics: UA-XXXXX-XX
