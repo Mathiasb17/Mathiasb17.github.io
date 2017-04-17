@@ -17,13 +17,6 @@ n/2,  & \text{if $n$ is even} \\
 \end{cases}
 $$
 
-$$ W_{poly6}(\vec{x}, h) = \frac{315}{64 \pi h^9} 
-\begin{cases} 
-  (h^2 - ||x||^2)^2 if ||x|| < h \\
-  0 else
-\end{cases}
-$$
-
 Gradient :
 
 Laplacian
