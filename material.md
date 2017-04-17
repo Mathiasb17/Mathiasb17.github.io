@@ -9,13 +9,9 @@ Use this kernel for pretty much everything you need. However, for pressure and v
 
 Kernel :
 
-$$
-  f(n) =
-\cases{
-  x & \textit{if} pierdole
-  y & \textit{if} kurwa
-}
-$$
+$$d_{1}\left(x,y\right)=\cases{
+  0&\text{if }x=y\cr
+  1&\text{if }x\neq y}$$
 
 Gradient :
 
