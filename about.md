@@ -17,7 +17,3 @@ Here is my resume (as of February 2017) in [French](/files/CV_Francais.pdf) or i
 <p align="center">
 <img src="/images/splash.png" alt="splash" />
 </p>
-
-just testing latex math :
-
-$$ \frac{\partial \rho}{\partial t} = 0 $$
