@@ -15,7 +15,13 @@ $$d_{1}\left(x,y\right)=\cases{
 
 Gradient :
 
+$$ 1 + 1 = 3 $$
+
 Laplacian
+
+$$ 1 + 2 &=& 3 \\
+   1 + 3 &=& 4
+$$
 
 ###### Implementation
 
