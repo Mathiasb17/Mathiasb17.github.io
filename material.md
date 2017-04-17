@@ -9,7 +9,12 @@ Use this kernel for pretty much everything you need. However, for pressure and v
 
 Kernel :
 
-$$ W_{poly6}(\vec{x}, h) = \frac{315}{64 \pi h^9} (h^2 - ||x||^2)^2 $$
+$$ W_{poly6}(\vec{x}, h) = \frac{315}{64 \pi h^9} 
+\begin{cases} 
+  (h^2 - ||x||^2)^2 if ||x|| < h
+  0 else
+\end{cases}
+$$
 
 Gradient :
 
