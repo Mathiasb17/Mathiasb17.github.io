@@ -3,7 +3,7 @@ layout: post
 title: "GPU SPH Fluid Solver"
 comments: true
 description: "A CUDA Parallelized fluid solver"
-keywords: "SPH, CUDA, Fluids, CFD"
+keywords: "SPH, CUDA, Fluids, CFD, Nvidia"
 ---
 
 I'm currently developping a GPU parallelized Smoothed Particle Hydrodynamics (SPH) fluid simulator. I used CUDA to parallelize 
@@ -28,5 +28,5 @@ I plan to add the following features :
 * Two way coupling
 * Better surface tension models
 * Breaking waves
-* Real-time surface reconstruction using GVDB
-* Maybe real-time rendering using nvidia optics !?
+* Real-time surface reconstruction using Nvidia GVDB
+* Maybe real-time rendering using Nvidia Optix !?
