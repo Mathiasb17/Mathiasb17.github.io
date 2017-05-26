@@ -13,7 +13,7 @@ Also I discretize solid boundaries with spheres and compute adhesion forces on f
 
 The overall simulation runs between 1100 and 1200 FPS with ~18k particles on a Nvidia GTX 970 graphic card. (but displays ~800 on the video, the video capture slows down the computations)
 
-[![SPH video](https://youtu.be/_DdHN8qApns)](https://youtu.be/_DdHN8qApns)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_DdHN8qApns" frameborder="0" allowfullscreen></iframe>
 
 You can find the source code here : 
 
