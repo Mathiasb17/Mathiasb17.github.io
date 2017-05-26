@@ -15,13 +15,12 @@ The overall simulation runs between 1100 and 1200 FPS with ~18k particles on a N
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_DdHN8qApns" frameborder="0" allowfullscreen></iframe>
 
-You can find the source code here : 
-
-https://github.com/Mathiasb17/sph_boundary_particles
+You can find the source code [here](https://github.com/Mathiasb17/sph_boundary_particles)
 
 The simulator was written accordingly to the following papers :
 
 [SPH star](https://cg.informatik.uni-freiburg.de/publications/2014_EG_SPH_STAR.pdf)
+
 [Boundaries paper](https://cg.informatik.uni-freiburg.de/publications/2013_CASA_elasticSolids.pdf)
 
 I plan to add the following features :
