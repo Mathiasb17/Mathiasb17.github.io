@@ -2,7 +2,7 @@
 layout: post
 title: "GPU SPH Fluid Solver"
 comments: true
-description: "A CUDA parralelized fluid solver"
+description: "A CUDA Parallelized fluid solver"
 keywords: "SPH, CUDA, Fluids, CFD"
 ---
 
