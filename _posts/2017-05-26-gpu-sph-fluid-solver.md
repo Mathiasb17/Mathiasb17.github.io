@@ -7,7 +7,7 @@ keywords: "SPH, CUDA, Fluids, CFD"
 ---
 
 I'm currently developping a GPU parallelized Smoothed Particle Hydrodynamics (SPH) fluid simulator. I used CUDA to parallelize 
-rountines such as neighbors updating, density and internal forces computing.
+routines such as neighbors updating, density and internal forces computing.
 
 Also I discretize solid boundaries with spheres and compute adhesion forces on fluid particles.
 
