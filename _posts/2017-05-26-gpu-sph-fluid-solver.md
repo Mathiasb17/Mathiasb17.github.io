@@ -19,9 +19,8 @@ You can find the source code [here](https://github.com/Mathiasb17/sph_boundary_p
 
 The simulator was written accordingly to the following papers :
 
-[SPH star](https://cg.informatik.uni-freiburg.de/publications/2014_EG_SPH_STAR.pdf)
-
-[Boundaries paper](https://cg.informatik.uni-freiburg.de/publications/2013_CASA_elasticSolids.pdf)
+* [SPH star](https://cg.informatik.uni-freiburg.de/publications/2014_EG_SPH_STAR.pdf)
+* [Boundaries paper](https://cg.informatik.uni-freiburg.de/publications/2013_CASA_elasticSolids.pdf)
 
 I plan to add the following features :
 
