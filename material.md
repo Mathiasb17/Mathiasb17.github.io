@@ -1,3 +1,8 @@
+---
+layout: page
+title: Material
+permalink: /material/
+---
 # Fluid simulation
 ## Procedural
 ## Physics Based
@@ -15,16 +20,9 @@ $$d_{1}\left(x,y\right)=\cases{
 
 Gradient :
 
-$$ 1 + 2 = 3 $$
-
 Laplacian
 
-$$ 1 + 2 &=& 3
-   1 + 3 &=& 4
-$$
-
 ###### Implementation
-
 
 ##### Spiky
 ##### Viscosity
