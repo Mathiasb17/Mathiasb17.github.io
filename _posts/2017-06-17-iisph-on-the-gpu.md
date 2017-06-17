@@ -6,9 +6,9 @@ description: "A cuda parallelized IISPH solver"
 keywords: "sph, iisph, CUDA"
 ---
 
-A few weeks ago i posted about my gpu implementation of a [EOS SPH solver](http://bromat.fr/2017/gpu-sph-fluid-solver/).
+A few weeks ago i posted about my gpu implementation of an [EOS SPH solver](http://bromat.fr/2017/gpu-sph-fluid-solver/).
 
-I just finished my implementation of a IISPH solver, parallelized with CUDA.
+I just finished my implementation of an IISPH solver, parallelized with CUDA.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Him-FXRogDk" frameborder="0" allowfullscreen></iframe>
 
