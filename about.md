@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-I'm a Ph.D. student in computer graphics and fluid simulation. On this website, i will publish materials about my research field, programming tricks, etc.
+I graduated my Ph.D. at universite de Poitiers, France on the 7th od december 2017. My thesis focused on the simulation and rendering of breaking waves. As of september 2017, i am a software engineer in embedded systems.
+
+On this website, i will publish materials about my research field, programming tricks, etc.
 
 On my [github profile](https://github.com/Mathiasb17), you can find some projects and other stuff i like to develop on my free time.
 
