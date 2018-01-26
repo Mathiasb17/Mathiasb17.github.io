@@ -14,6 +14,6 @@ I also love spending time solving programming challenges, here is my [Project-Eu
 
 <img src="https://projecteuler.net/profile/Muska17.png" alt="project-euler" />
 
-Here is my resume (as of February 2017) in [French](/files/CV_Francais.pdf) or in [English](/files/CV_English.pdf) 
+Here is my resume (as of January 2018) in [French](/files/CV_Francais.pdf).
 
 <img src="/images/splash.png" alt="splash" />
