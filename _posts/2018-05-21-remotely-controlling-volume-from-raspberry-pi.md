@@ -8,7 +8,7 @@ keywords: "Raspberry Pi, C++, TCP, Alsa"
 
 I wanted to control the volume output of my desktop computer anywhere in my appartment. 
 
-I did this small trick with my Raspberry Pi (mainy using and ADC and a potentiometer) and a C++ program.
+I did this small trick with my Raspberry Pi (mainly using and ADC and a potentiometer) and a C++ program.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VCJOjnibFSk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
