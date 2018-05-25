@@ -45,6 +45,9 @@ og_locale: "en_US"
 #twitter_card: "summary_large_image"
 #twitter_site: "@HeiswayiNrird"
 
+plugins:
+  - jekyll-seo-tag
+
 gems:
   - bourbon
   - jekyll-paginate
