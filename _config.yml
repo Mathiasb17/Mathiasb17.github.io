@@ -2,7 +2,7 @@
 # SEO settings
 title: "Mathias Brousset"
 title2: ""
-description: "Mathias Brousset homepage - Computer science and stuff"
+description: "Mathias Brousset homepage"
 keywords: "mathias, brousset, homepage, website, computer, science"
 url: http://bromat.fr # site url
 baseurl: "" # apply repo name if use it under gh-pages branch
