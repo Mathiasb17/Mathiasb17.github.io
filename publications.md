@@ -6,12 +6,11 @@ permalink: /publications/
 
 <script type="text/javascript">
 
-
 var ref_thesis = `
-@phdthesis{phdtheis, \r\n
+@phdthesis{phdthesis, \r\n
 	author = "Brousset, Mathias", \r\n
-	title  = "Simulation et rendu de vagues d\'eferlantes", \r\n
-	school = "Universit\'e de Poitiers", \r\n
+	title  = "Simulation et rendu de vagues d\\'eferlantes", \r\n
+	school = "Universit\\'e de Poitiers", \r\n
 	year   = "2017" \r\n
 	}
 `;
@@ -41,21 +40,6 @@ var ref_vp = `
 }
 `;
 
-$(document).ready(function() {
-	$("#toggle_thesis").click(function(){
-		copyClipboard("thesis");
-		$("#toggle_thesis").effect("shake");
-	});
-	$("#toggle_cg").click(function(){
-		copyClipboard("cg");
-		$("#toggle_cg").effect("shake");
-	});
-	$("#toggle_vp").click(function(){
-		copyClipboard("vp");
-		$("#toggle_vp").effect("shake");
-	});
-});
-
 function copyClipboard(article)
 {
 	var selected = "";
@@ -73,11 +57,36 @@ function copyClipboard(article)
 	}
 
 	var input = $('<textarea>');
+	$("body").append(input);
 	var strcopy = input.val(selected).select();
 
-	input.remove();
 	document.execCommand('copy');
+	input.remove();
 }
+
+$(document).ready(function() {
+
+	$("#toggle_thesis").click(function(){
+		copyClipboard("thesis");
+		$("#toggle_thesis").effect("shake");
+	});
+
+	$("#toggle_cg").click(function(){
+		copyClipboard("cg");
+		$("#toggle_cg").effect("shake");
+	});
+
+	$("#toggle_vp").click(function(){
+		copyClipboard("vp");
+		$("#toggle_vp").effect("shake");
+	});
+
+});
+
+
+
+
+
 
 </script>
 
