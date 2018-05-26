@@ -52,6 +52,7 @@ $(document).ready(function() {
 		$("#toggle_vp").effect("shake");
 	});
 });
+
 function copyClipboard(article)
 {
 	var selected = "";
