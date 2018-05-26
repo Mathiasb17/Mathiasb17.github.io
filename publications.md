@@ -6,6 +6,16 @@ permalink: /publications/
 
 <script type="text/javascript">
 
+
+var ref_thesis = `
+@phdthesis{phdtheis, \n
+	author = "Brousset, Mathias", \n
+	title = "Simulation et rendu de vagues d\'eferlantes", \n
+	school = "Universit\'e de Poitiers", \n
+	year = "2017" \n
+	}
+`;
+
 var ref_cg = `
 @article{Brousset16, \n
 	title   = "Simulation and control of breaking waves using an external force model", \n
@@ -31,14 +41,30 @@ var ref_vp = `
 }
 `;
 
-$(document).ready(function(){
-	$("#bibtex-cg").text(ref_cg);
-	$("#bibtex-vp").text(ref_vp);
-});
+function copyClipboard(article)
+{
+	var selected = "";
+	switch(article)
+	{
+	case "thesis":
+		selected = ref_thesis;
+		break;
+	case "cg":
+		selected = ref_cg;
+		break;
+	case "vp":
+		selected = ref_vp;
+		break;
+	}
+	selected.select();
+	document.execCommand("copy");
+	alert("Copied the text " + selected);
+}
+
 </script>
 
-|                                                 | Title                                                                  | Journal/Conf.                                                                                      | Status            | Link to Preprint                                               | Bibtex                                                                                |
-| :---------------------------------------------: | :--------------------------------------------------------------------: | :----------------------------------------------------------------------------------------:         | :---------------: | :--------------:                                               | :--------------:                                                                      |
-| ![teaser vriphys](/images/teaser_vriphys15.png) | Simulation and Rendering of Breaking Waves                      |  Thesis                                               | Passed | [Download here](https://github.com/Mathiasb17/mathiasb17.github.io/raw/master/files/BROUSSET_THESE.pdf) | <textarea id="bibtex-thesis" rows="5" cols="10" readonly style="resize:none">soon </textarea> |
-| ![teaser cg](/images/teaser_cg16.png)           | Simulation and Control of Breaking Waves using an External Force Model | [Computers & Graphics vol. 57](http://www.sciencedirect.com/science/article/pii/S0097849316300164) | Published         | [Here](/files/CG_2015_soliton_extended.pdf)                    | <textarea id="bibtex-cg" rows="5" cols="10" readonly style="resize:none"> </textarea> |
-| ![teaser vriphys](/images/teaser_vriphys15.png) | A New Force Model for Controllable Breaking Waves                      | [VRIPHYS 2015](http://vriphys2015.sciencesconf.org/)                                               | Honorable Mention | [see extended paper here](/files/CG_2015_soliton_extended.pdf) | <textarea id="bibtex-vp" rows="5" cols="10" readonly style="resize:none"> </textarea> |
+|                                                 | Title                                                                  | Journal/Conf.                                                                                      | Status            | Link to Preprint                                                                                        | Bibtex                                                               |
+| :---------------------------------------------: | :--------------------------------------------------------------------: | :----------------------------------------------------------------------------------------:         | :---------------: | :--------------:                                                                                        | :--------------:                                                     |
+| ![teaser vriphys](/images/teaser_vriphys15.png) | Simulation and Rendering of Breaking Waves                             | Thesis                                                                                             | Passed            | [Download here](https://github.com/Mathiasb17/mathiasb17.github.io/raw/master/files/BROUSSET_THESE.pdf) | <button onclick="copyClipboard('thesis')">Copy to clipboard</button> |
+| ![teaser cg](/images/teaser_cg16.png)           | Simulation and Control of Breaking Waves using an External Force Model | [Computers & Graphics vol. 57](http://www.sciencedirect.com/science/article/pii/S0097849316300164) | Published         | [Here](/files/CG_2015_soliton_extended.pdf)                                                             | <button onclick="copyClipboard('cg')">Copy to clipboard</button>     |
+| ![teaser vriphys](/images/teaser_vriphys15.png) | A New Force Model for Controllable Breaking Waves                      | [VRIPHYS 2015](http://vriphys2015.sciencesconf.org/)                                               | Honorable Mention | [see extended paper here](/files/CG_2015_soliton_extended.pdf)                                          | <button onclick="copyClipboard('vp')">Copy to clipboard</button>     |
