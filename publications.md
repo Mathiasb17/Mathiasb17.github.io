@@ -8,36 +8,36 @@ permalink: /publications/
 
 
 var ref_thesis = `
-@phdthesis{phdtheis, \n
-	author = "Brousset, Mathias", \n
-	title = "Simulation et rendu de vagues d\'eferlantes", \n
-	school = "Universit\'e de Poitiers", \n
-	year = "2017" \n
+@phdthesis{phdtheis, \r\n
+	author = "Brousset, Mathias", \r\n
+	title  = "Simulation et rendu de vagues d\'eferlantes", \r\n
+	school = "Universit\'e de Poitiers", \r\n
+	year   = "2017" \r\n
 	}
 `;
 
 var ref_cg = `
-@article{Brousset16, \n
-	title   = "Simulation and control of breaking waves using an external force model", \n
-	author  = "Brousset, Mathias and Darles, Emmanuelle and Meneveaux, Daniel and Poulin, Pierre and Crespin, Benoît", \n
-	journal = "Computers & Graphics", \n
-	volume  = "57", \n
-	pages   = "102 - 111", \n
-	year    = "2016", \n
-	issn    = "0097-8493", \n
+@article{Brousset16, \r\n
+	title   = "Simulation and control of breaking waves using an external force model", \r\n
+	author  = "Brousset, Mathias and Darles, Emmanuelle and Meneveaux, Daniel and Poulin, Pierre and Crespin, Benoît", \r\n
+	journal = "Computers & Graphics", \r\n
+	volume  = "57", \r\n
+	pages   = "102 - 111", \r\n
+	year    = "2016", \r\n
+	issn    = "0097-8493", \r\n
 	}
 `;
 
 var ref_vp = `
-	@inproceedings {Brousset15, \n
-	title = {{A New Force Model for Controllable Breaking Waves}}, \n
-	author = {Brousset, Mathias and Darles, Emmanuelle and Meneveaux, Daniel and Poulin, Pierre and Crespin, Benoît}, \n
-	booktitle = {Workshop on Virtual Reality Interaction and Physical Simulation}, \n
-	editor = {Fabrice Jaillet and Florence Zara and Gabriel Zachmann}, \n
-	year = {2015}, \n
-	publisher = {The Eurographics Association}, \n
-	ISBN = {978-3-905674-98-9}, \n
-	DOI = {10.2312/vriphys.20151334} \n
+	@inproceedings {Brousset15, \r\n
+	title = {{A New Force Model for Controllable Breaking Waves}}, \r\n
+	author = {Brousset, Mathias and Darles, Emmanuelle and Meneveaux, Daniel and Poulin, Pierre and Crespin, Benoît}, \r\n
+	booktitle = {Workshop on Virtual Reality Interaction and Physical Simulation}, \r\n
+	editor = {Fabrice Jaillet and Florence Zara and Gabriel Zachmann}, \r\n
+	year = {2015}, \r\n
+	publisher = {The Eurographics Association}, \r\n
+	ISBN = {978-3-905674-98-9}, \r\n
+	DOI = {10.2312/vriphys.20151334} \r\n
 }
 `;
 
