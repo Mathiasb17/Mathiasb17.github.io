@@ -57,9 +57,10 @@ function copyClipboard(article)
 		break;
 	}
 
-	var input = $('<input>');
+	var input = $('<textarea>');
 	var strcopy = input.val(selected).select();
 
+	input.remove();
 	document.execCommand('copy');
 }
 
