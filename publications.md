@@ -41,12 +41,17 @@ var ref_vp = `
 }
 `;
 
-$( document ).click(function() {
-  $( "#toggle_thesis" ).effect( "shake" );
-  $( "#toggle_cg" ).effect( "shake" );
-  $( "#toggle_vp" ).effect( "shake" );
+$(document).ready(function() {
+	$("#toggle_thesis").click(function(){
+		$("#toggle_thesis").effect("shake");
+	});
+	$("#toggle_cg").click(function(){
+		$("#toggle_cg").effect("shake");
+	});
+	$("#toggle_vp").click(function(){
+		$("#toggle_vp").effect("shake");
+	});
 });
-
 function copyClipboard(article)
 {
 	var selected = "";
