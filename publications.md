@@ -56,9 +56,9 @@ function copyClipboard(article)
 		selected = ref_vp;
 		break;
 	}
-	selected.select();
-	document.execCommand("copy");
-	alert("Copied the text " + selected);
+
+	var temp = $('<input>').val(selected).appendTo('body').select();
+	document.execCommand('copy');
 }
 
 </script>
