@@ -43,12 +43,15 @@ var ref_vp = `
 
 $(document).ready(function() {
 	$("#toggle_thesis").click(function(){
+		copyClipboard("thesis");
 		$("#toggle_thesis").effect("shake");
 	});
 	$("#toggle_cg").click(function(){
+		copyClipboard("cg");
 		$("#toggle_cg").effect("shake");
 	});
 	$("#toggle_vp").click(function(){
+		copyClipboard("vp");
 		$("#toggle_vp").effect("shake");
 	});
 });
