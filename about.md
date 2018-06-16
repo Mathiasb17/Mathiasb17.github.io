@@ -4,14 +4,15 @@ title: About
 permalink: /about/
 ---
 
+<p align="center">
+	<img src="/images/lr.jpg" alt="photograph of me in La Rochelle">
+</p>
+
 Here is my resume (as of May 2018) in [French](/files/CV_Francais.pdf).
 
-I graduated my Ph.D. at université de Poitiers, France on the 7th of december 2017. My thesis focused on the simulation and rendering of breaking waves. As of september 2017, i am a software engineer in embedded systems.
+I graduated my Ph.D. at université de Poitiers (France) in december 2017. My [thesis](BROUSSET_THESE.pdf) focuses on the simulation and rendering of oceanic waves in computer graphics.
 
-On this website, i will publish materials about my research field, programming tricks, etc.
+Since september 2017, i am also a software and firmware engineer in embedded systems, currently working at Itron in the field of smart metering systems.
 
-On my [github profile](https://github.com/Mathiasb17), you can find some projects and other stuff i like to develop on my free time.
+On this website, i will publish materials about my research field and programming.
 
-I also love spending time solving programming challenges, here is my [Project-Euler](https://projecteuler.net) profile :
-
-<img src="https://projecteuler.net/profile/Muska17.png" alt="project-euler" />
