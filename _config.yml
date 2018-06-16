@@ -47,8 +47,6 @@ og_locale: "en_US"
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-
-gems:
   - bourbon
   - jekyll-paginate
 
