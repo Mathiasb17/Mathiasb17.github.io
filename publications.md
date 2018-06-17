@@ -5,7 +5,6 @@ permalink: /publications/
 ---
 
 <script type="text/javascript">
-
 var ref_thesis = `
 @phdthesis{brousset_thesis, \r\n
 	author = "Brousset, Mathias", \r\n
@@ -100,18 +99,16 @@ $(document).ready(function() {
 	});
 
 });
-
 </script>
 
-|                                                 | Download preprint                                                                                                                        | Journal/Conf.                                                                              | Bibtex                                                                                          |
-| :---------------------------------------------: | :--------------------------------------------------------------------:                                                                   | :----------------------------------------------------------------------------------------: | :--------------:                                                                                |
-| ![teaser vriphys](/images/teaser_thesis.png)    | <a href="/files/BROUSSET_THESE.pdf" target="_blank">Simulation and Rendering of Breaking Waves</a>                                       | Thesis                                                                                     | <button id = "toggle_thesis" title="Reference copied to clipboard !">Copy to clipboard</button> |
-| ![teaser cg](/images/teaser_cg16.png)           | <a href="/files/CG_2015_soliton_extended.pdf" target="_blank">Simulation and Control of Breaking Waves using an External Force Model</a> | [C&G vol. 57](http://www.sciencedirect.com/science/article/pii/S0097849316300164)          | <button id = "toggle_cg" title="Reference copied to clipboard !">Copy to clipboard</button>     |
-| ![teaser vriphys](/images/teaser_vriphys15.png) | <a href="/files/CG_2015_soliton_extended.pdf" target="_blank">A New Force Model for Controllable Breaking Waves</a>                      | [VRIPHYS 2015](http://vriphys2015.sciencesconf.org/)                                       | <button id = "toggle_vp" title="Reference copied to clipboard !">Copy to clipboard</button>     |
-| ![teaser vriphys](/images/teaser_vriphys15.png) | <a href="/files/paper-AFIG-2015.pdf" target="_blank">Un nouveau modèle pour la génération et le contrôle de vagues déferlantes</a>       | [AFIG 2015](https://projet.liris.cnrs.fr/afig2015/)                                        | <button id = "toggle_afig" title="Reference copied to clipboard !">Copy to clipboard</button>   |
+|                                                 | Download preprint                                                                                                                                            | Journal/Conf.                                                                                          | Bibtex                                                                                          |
+| :---------------------------------------------: | :--------------------------------------------------------------------:                                                                                       | :----------------------------------------------------------------------------------------:             | :--------------:                                                                                |
+| ![teaser vriphys](/images/teaser_thesis.png)    | <a href="/files/BROUSSET_THESE.pdf" target="_blank">{{ site.icon_pdf }} Simulation and Rendering of Breaking Waves</a>                                       | Thesis                                                                                                 | <button id = "toggle_thesis" title="Reference copied to clipboard !">Copy to clipboard</button> |
+| ![teaser cg](/images/teaser_cg16.png)           | <a href="/files/CG_2015_soliton_extended.pdf" target="_blank">{{ site.icon_pdf }} Simulation and Control of Breaking Waves using an External Force Model</a> | {{ site.icon_site }} [C&G vol. 57](http://www.sciencedirect.com/science/article/pii/S0097849316300164) | <button id = "toggle_cg" title="Reference copied to clipboard !">Copy to clipboard</button>     |
+| ![teaser vriphys](/images/teaser_vriphys15.png) | <a href="/files/CG_2015_soliton_extended.pdf" target="_blank">{{ site.icon_pdf }} A New Force Model for Controllable Breaking Waves</a>                      | {{ site.icon_site }} [VRIPHYS 2015](http://vriphys2015.sciencesconf.org/)                              | <button id = "toggle_vp" title="Reference copied to clipboard !">Copy to clipboard</button>     |
+| ![teaser vriphys](/images/teaser_vriphys15.png) | <a href="/files/paper-AFIG-2015.pdf" target="_blank">{{ site.icon_pdf }} Un nouveau modèle pour la génération et le contrôle de vagues déferlantes</a>       | {{ site.icon_site }} [AFIG 2015](https://projet.liris.cnrs.fr/afig2015/)                               | <button id = "toggle_afig" title="Reference copied to clipboard !">Copy to clipboard</button>   |
 
 <script>
-
 tippy('button',
 	{
 		arrow : true,

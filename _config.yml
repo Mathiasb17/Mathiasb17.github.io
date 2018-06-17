@@ -60,3 +60,8 @@ navbar:
     title: Publications
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md", "vendor/bundle"]
+
+# recurrent stuff
+icon_pdf: <i class="fa fa-file-pdf-o" style="font-size:16px;color:red"></i>
+icon_site: <i class="fa fa-file-code-o" style="font-size:16px"></i>
+
