@@ -23,7 +23,7 @@ Disable the swap :
 sudo dphys-swapfile swapoff
 ```
 
-Then edit */etc/dphys-swapfile* with a text editor :
+Then edit `/etc/dphys-swapfile` with a text editor :
 
 ```
 CONF_SWAPSIZE=1024
@@ -34,3 +34,9 @@ Finally enable the swap again :
 ```
 sudo dphys-swapfile swapon
 ```
+
+### Step 2 : install dependencies
+
+### Step 3 : build tokenpay
+
+### Step 4 : run tokenpay
